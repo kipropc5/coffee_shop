@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
    <head>
-      <link rel="shortcut icon" href="images/pexels-ifreestock-585752.jpg" type="image/x-icon">
+      <link rel="shortcut icon" href="zon-html/images/pexels-ifreestock-585752.jpg" type="image/x-icon">
       <!-- basic -->
       <meta charset="utf-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -14,16 +14,16 @@
       <meta name="description" content="">
       <meta name="author" content="">
       <!-- bootstrap css -->
-      <link rel="stylesheet" href="css/bootstrap.min.css">
+      <link rel="stylesheet" href="zon-html/css/bootstrap.min.css">
       <!-- style css -->
-      <link rel="stylesheet" href="css/style.css">
+      <link rel="stylesheet" href="zon-html/css/style.css">
       <!-- Responsive-->
-      <link rel="stylesheet" href="css/responsive.css">
+      <link rel="stylesheet" href="zon-html/css/responsive.css">
       <!-- fevicon -->
       <link rel="icon" href="images/fevicon.png" type="image/gif" />
       <!-- Scrollbar Custom CSS -->
-      <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
-      <link rel="stylesheet" href="css/owl.carousel.min.css">
+      <link rel="stylesheet" href="zon-html/css/jquery.mCustomScrollbar.min.css">
+      <link rel="stylesheet" href="zon-html/css/owl.carousel.min.css">
       <!-- Tweaks for older IEs-->
       <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
@@ -36,7 +36,7 @@
    <body class="main-layout inner_page">
       <!-- loader  -->
       <div class="loader_bg">
-         <div class="loader"><img src="images/loading.gif" alt="#"/></div>
+         <div class="loader"><img src="zon-html/images/loading.gif" alt="#"/></div>
       </div>
       <!-- end loader -->
       <!-- header -->
@@ -59,22 +59,22 @@
                      </button>
                      <div class="collapse navbar-collapse" id="navbarsExample04">
                         <ul class="navbar-nav mr-auto">
-                           <li class="nav-item ">
+                           <li class="nav-item">
                               <a class="nav-link" href="index.html">Home</a>
                            </li>
-                           <li class="nav-item active">
+                           <li class="nav-item">
                               <a class="nav-link" href="about.html">About</a>
                            </li>
                            <li class="nav-item">
                               <a class="nav-link" href="service.html">Service</a>
                            </li>
                            <li class="nav-item">
-                              <a class="nav-link" href="testimonial.html">Customer review</a>
+                              <a class="nav-link" href="testimonial.html">Customer Review</a>
                            </li>
                            <li class="nav-item">
                               <a class="nav-link" href="blog.html">Blog</a>
                            </li>
-                           <li class="nav-item">
+                           <li class="nav-item active">
                               <a class="nav-link" href="contact.html">Contact Us</a>
                            </li>
                            <li class="nav-item">
@@ -86,7 +86,7 @@
                </div>
                <div class="col-md-4 re_no">
                   <ul class="infomaco">
-                     <li><i class="fa fa-phone" aria-hidden="true"></i>+254 71020123</li>
+                     <li><i class="fa fa-phone" aria-hidden="true"></i> +254 71020123</li>
                      <li><a href="Javascript:void(0)"><i class="fa fa-envelope-o" aria-hidden="true"></i> gem@gmail.com</a></li>
                   </ul>
                </div>
@@ -94,27 +94,48 @@
          </div>
       </div>
       <!-- end header inner -->
-      <!-- about -->
-      <div class="about">
-         <div class="container">
-            <div class="row d_flex grid">
-               <div class="col-md-6">
-                  <div class="about_img text_align_center">
-                     <figure><img src="images/about.png" alt="#"/></figure>
+      <!-- section blue_bg -->
+      <div class="section blue_bg">
+         <div class="container-fluid">
+            <div class="row">
+               <!-- contact -->
+               <div class="col-md-6 offset-md-3">
+                  <div class="contact">
+                     <div class="row ">
+                        <div class="col-md-12">
+                           <div class="titlepage text_align_center">
+                              <h2>contact Us</h2>
+                           </div>
+                        </div>
+                        <div class="col-md-12">
+                           <form id="request" class="main_form">
+                              <div class="row">
+                                 <div class="col-md-12 ">
+                                    <input class="contactus" placeholder="Your name" type="type" name=" Name"> 
+                                 </div>
+                                 <div class="col-md-12">
+                                    <input class="contactus" placeholder="Phone Number" type="type" name="Phone Number">                          
+                                 </div>
+                                 <div class="col-md-12">
+                                    <input class="contactus" placeholder="Email" type="type" name="Email">                          
+                                 </div>
+                                 <div class="col-md-12">
+                                    <textarea class="textarea" placeholder="Message" type="type" Message="Name"></textarea>
+                                 </div>
+                                 <div class="col-md-12">
+                                    <button class="send_btn">Send</button>
+                                 </div>
+                              </div>
+                           </form>
+                        </div>
+                     </div>
                   </div>
                </div>
-               <div class="col-md-6 order1">
-                  <div class="titlepage text_align_left">
-                     <h2>About GEM'S Coffee</h2>
-                     <p>The diverse menu comes together with a simple goal – to help people connect over a coffee, tea or
-                        beignet and get a distinct taste of Home!
-                     </p>
-                  </div>
-               </div>
+               <!-- contact -->
             </div>
          </div>
       </div>
-      <!-- end about -->
+      <!-- end section blue_bg -->
       <!--  footer -->
       <footer>
          <div class="footer">
@@ -144,7 +165,7 @@
                                  <li><a href="index.html">Home</a></li>
                                  <li><a href="about.html">About </a></li>
                                  <li><a href="serviec.html">Coffee Services</a></li>
-                                 <li><a href="testimonial.html">Testimonial</a></li>
+                                 <li><a href="testimonial.html">Customer Review</a></li>
                                  <li><a href="blog.html">Blog</a></li>
                                  <li><a href="contact.html">Contact us</a></li>
                               </ul>
@@ -155,7 +176,7 @@
                               <h3>Coffee</h3>
                               <ul class="menu_bottom">
                                  <li><a href="Javascript:void(0)">Black Coffee</a></li>
-                                 <li><a href="Javascript:void(0)">Red Coffee </a></li>
+                                 <li><a href="Javascript:void(0)">Read Coffee </a></li>
                                  <li><a href="Javascript:void(0)">Coffee Services</a></li>
                                  <li><a href="Javascript:void(0)">Green Tea</a></li>
                                  <li><a href="Javascript:void(0)">Chocolate Coffee</a></li>
@@ -197,13 +218,13 @@
       </footer>
       <!-- end footer -->
       <!-- Javascript files-->
-      <script src="js/jquery.min.js"></script>
-      <script src="js/bootstrap.bundle.min.js"></script>
-      <script src="js/jquery-3.0.0.min.js"></script>
+      <script src="zon-html/js/jquery.min.js"></script>
+      <script src="zon-html/js/bootstrap.bundle.min.js"></script>
+      <script src="zon-html/js/jquery-3.0.0.min.js"></script>
       <!-- sidebar -->
-      <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+      <script src="zon-html/js/jquery.mCustomScrollbar.concat.min.js"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
-      <script src="js/owl.carousel.min.js"></script>
-      <script src="js/custom.js"></script>
+      <script src="zon-html/js/owl.carousel.min.js"></script>
+      <script src="zon-html/js/custom.js"></script>
    </body>
 </html>
